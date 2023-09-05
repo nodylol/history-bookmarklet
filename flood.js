@@ -1,0 +1,1 @@
+javascript:var num=prompt("How many Viruses do u want to injet?\Developed By:  Nody");done=false;x=window.location.href;for (var i=1; i<=num; i++){history.pushState(0, 0, i==num?x:i.toString());if(i==num){done=true}}if(done===true){alert("Fake Virus Injected!\n "+window.location.href+" \nIs Done "+num+(num==1?" time.":" Times. \nDeveloped By: Nody"))}
